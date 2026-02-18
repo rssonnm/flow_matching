@@ -3,7 +3,7 @@
 A high-performance, pure PyTorch implementation of **Conditional Flow Matching (CFM)** with some improvements.
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 flowmatching_final/
@@ -22,7 +22,7 @@ flowmatching_final/
 └── README.md
 ```
 
-## ✨ Key Features
+## Features
 
 - **Advanced Solvers**: Explicit Midpoint (2nd order), RK4 (4th order), Dopri5 (Adaptive).
 - **Optimal Transport (OT)**: Mini-batch OT coupling for straighter paths.
@@ -30,16 +30,16 @@ flowmatching_final/
 - **Architecture**: Adaptive Layer Norm (AdaLN) for time conditioning.
 - **Training**: Logit-Normal time sampling focus on hard regions + EMA.
 
-## 🚀 Installation
+## Installation
 
 ```bash
 cd flowmatching_final
 pip install -e .
 ```
 
-## 🎮 Usage
+## Usage
 
-You can run scripts directly without installation (via `sys.path` hack) or after installing.
+Run scripts directly without installation (via `sys.path` hack) or after installing.
 
 ### Quick Demo
 Run training and sampling on the `8gaussians` dataset:
